@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almas Resume</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+    <div class="showscreen" id="showscreen">
+        <h1 style="padding-top: 200px;">OPEN RESUME</h1>
+        <h3 style="padding-top: 200px;">---Click---</h3>
+    </div>
+
+    <div id="resumeholder" class="resumeholder">
+        <div class="row action-row" style="background-color:darkcyan;">
+            <h1 class="title">Almas Coding Resume</h1>
+        </div>
+        <div class="row action-row">
+            <h3 class="contact">Contact: Toronto,Ontario / alms.ataman@gmail.com / 647-628-4160</h3>
+        </div>
+        <div class="row action-row">
+            <h1 class="object">Objective: To secure good computer science job as the owner of google.</h1>
+        </div>
+
+        <div class="row action-row">
+            <div class="col-4" style="text-align: center;">
+                <h2 class="high" style="background-color: black; color: white;">Highlights of Qualifications:</h2>
+                <div class="listhigh" id="listhigh" style="display: none;  background-color: aqua; padding: 10px; height: 500px;">
+                    <li>Work well with others under busy or stressful situations</li>
+                    <li>Learn how to do things quickly and has a good memory for details</li>
+                    <li>Proven ability to design web pages with the following programs HTML, CSS, Bootstrap and JavaScript.</li>
+                    <li>Bilingual in French and english.</li>
+                    <li>Able to work in a fast paced and busy environment in order to achieve high results</li>
+                    <li>Adapt well to fast changing requirements and information</li>
+                    <li>A quick learner</li>
+                    <li>Able to communicate effectively with peers.</li>
+                </div>
+                <button class="shigh" id="shigh"> Open </button>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <h2 class="rskills" style="background-color: black; color: white;">Relevant Skills:</h2>
+                <div class="listrskill" id="listrskill" style="display: none; background-color: orange; padding: 10px; height: 500px;">
+                    <h3>Communication</h3>
+                    <li>Empathetic listener able to help others in need.</li>
+                    <li>Collaborated well with others to perform a certain task.</li>
+                    <li>Communicate new ideas with others that can fix a problem.</li>
+                    <h3>Child Care</h3>
+                    <li>Communicated effectively with young children.</li>
+                    <li>Responsible for maintaining a safe and fun environment for young children.</li>
+                    <li>Created activities to ensure complete engagement and enjoyment of children </li>
+                </div>
+                <button class="srk" id="srk"> Open </button>
+            </div>
+
+            <div class="col-4" style="text-align: center;">
+                <h2 class="exp" style="background-color: black; color: white;">Relevant Experience:</h2>
+                <div class="listexp" id="listexp" style="display: none; background-color: red; padding: 10px; height: 500px;">
+                    <li>Child Care Uyghur Learning Center 2022</li>
+                    <li>Customer Service Uyghur Learning Center 2022</li>
+                    <li>General Help Getaway Public School 2021</li>
+                    <li>O.S.S.D TDSB In Progress</li>
+                    <li>Career Exploration and JVS Toronto 2022 Skill development</li>
+                    <li>Workers Health and Safety Ministry of Labour 2022</li>
+                </div>
+                <button class="sexp" id="sexp"> Open </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards" id="cards">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="microsoft.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Microsoft</h5>
+                        <p class="card-text">Microsoft Page</p>
+                        <a href="microsoftpagefinalproject.html" class="btn btn-primary">Go</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="pokemon.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokemon</h5>
+                        <p class="card-text">Pokemon Game</p>
+                        <a href="pokemon.html" class="btn btn-primary">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <div class="footer" id="footer">
+        <button class="but" id="cp">Close Resume</button>
+        <button class="but" id="cr">Close PopUps</button>
+        <button class="but" id="oc">Open Cards</button>
+        <button class="but" id="cc">Close Cards</button>
+    </div>
+    <script src="resume.js"></script>
+</body>
+
+</html>
